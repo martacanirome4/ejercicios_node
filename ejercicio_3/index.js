@@ -2,7 +2,7 @@ const http = require('http');
 const port = 3000;
 const url = require('url');
 
-const palabras = require('./palabras.json'); // accedemos el diccionario con palabras aleatorias
+const palabras = require('./opcion1/palabras.json'); // accedemos el diccionario con palabras aleatorias
 
 // función para obtener una palabra aleatoria del diccionario
 function getRandomWord() {
